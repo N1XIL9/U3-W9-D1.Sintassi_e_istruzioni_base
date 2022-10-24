@@ -25,7 +25,7 @@ function match() {
         console.log("No one comes closer");
     }
     else {
-        console.log("Playere Two gets closer");
+        console.log("Players Two gets closer");
     }
 }
 console.log(match);
