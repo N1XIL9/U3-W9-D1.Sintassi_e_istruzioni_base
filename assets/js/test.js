@@ -28,4 +28,4 @@ function match() {
         console.log("Players Two gets closer");
     }
 }
-console.log(match);
+match();

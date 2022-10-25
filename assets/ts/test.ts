@@ -10,8 +10,10 @@ console.log(pc);
 
 //creo la funzione per confrontare i player One-Two 
 function match (){
-    let  diff1 = Math.abs(pc - playerOne );
-    let  diff2 = Math.abs(pc - playerTwo );
+  
+    let diff1 = Math.abs(pc - playerOne );
+    
+    let diff2 = Math.abs(pc - playerTwo );
 
 
     if (playerOne === pc) {
@@ -25,8 +27,14 @@ function match (){
     }else {
         console.log("Players Two gets closer");
     }
+
+
+    
 }
-console.log(match);
+match();
+
+
+
 
 
 
